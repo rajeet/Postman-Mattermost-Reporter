@@ -1,0 +1,20 @@
+{
+  "name": "postman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postmanMattermostReporter.js",
+  "scripts": {
+    "run_default":"rm -rf newman",
+    "run_test": "node src/script.js",
+    "run_postman_test":"npm run run_default && npm run run_test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "newman": "^5.3.2",
+    "newman-reporter-htmlextra": "^1.22.11",
+    "newman-reporter-json-summary": "^1.0.14"
+  }
+}
