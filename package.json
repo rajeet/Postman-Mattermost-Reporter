@@ -6,7 +6,7 @@
   "scripts": {
     "run_default":"rm -rf newman",
     "run_test": "node src/script.js",
-    "run_postman_test":"npm run run_default && npm run run_test"
+    "generate_report":"npm run run_default && npm run run_test"
   },
   "keywords": [],
   "author": "",
