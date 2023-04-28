@@ -18,11 +18,11 @@ To get started with this project, follow the steps below:
 
 1. Clone the project repository to your local machine.
 2. Install the required dependencies by running the following command:
-    > `npm install`
+    > npm install
 3. Set up your Postman collection and environment files.
 4. Create the configuration file `.env` with your Postman collection and environment file paths, Mattermost server details, to which the summary report will be sent.
 5. Run the project by running the following command:
-   > `npm run generate_report`
+   > npm run generate_report
 
 This will run your Postman collection and generate a summary report, which will then be converted into a Mattermost message and sent to the specified groups.
 
